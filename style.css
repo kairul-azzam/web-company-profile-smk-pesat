@@ -88,14 +88,14 @@ a.contactMe:hover{
 }
 .kontakWA{
     display: flex;
-    margin: 0px 20px 0px 20px;
+    gap: 10px;
 }
 .daftar-Btn {
     color: white;
     background-color: #F1A204;
     border-radius: 5px;
     padding: 10px;
-    
+    cursor: pointer;
 }
 .program-Btn{
     color: #0c084c;
@@ -103,6 +103,10 @@ a.contactMe:hover{
     border-radius: 5px;
     padding: 10px;
     border-width: 2px;
+    cursor: pointer;
+}
+.jurusannn{
+    padding: 0px 40px 0px 0px;
 }
 .partner{
     width: 85%;
@@ -168,7 +172,6 @@ ul li{
 .jurusan{
     font-family: poppins;
     display: flex;
-    margin: 0px 140px 0px 140px;
 }
 .jurusan .tkj{
     background-color: #ededed;
@@ -196,7 +199,8 @@ ul li{
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 45px;   
+    margin-top: 45px;  
+    cursor: pointer; 
 }
 /* dkv */
 .jurusan .dkv .tombolDkv{
@@ -217,6 +221,7 @@ ul li{
     border-radius: 10px;
     margin-top: 45px;   
     text-align: center;
+    cursor: pointer;
 }
 .jurusan .dkv{
     background-color: #ededed;
@@ -255,6 +260,7 @@ ul li{
     border-radius: 10px;
     text-align: center;
     margin-top: 45px;   
+    cursor: pointer;
 }
 .jurusan .rpl{
     background-color: #ededed;
@@ -270,6 +276,7 @@ ul li{
 .container_gallery{
     max-width: 1100px;
     margin: auto;
+    
 }
 .title{
     text-align: center;
@@ -319,6 +326,156 @@ ul li{
 .gambar:hover{
     transform: scale(1.05);
 }
+.portofoliotkj{
+    display: flex;
+    gap: 100px;
+    /* background-color: yellow; */
+}
+.listpttkj li{
+    margin: 5px 0px 0px -28px;
+    font-size: 13px;
+}
+iframe{
+    border-radius: 15px;
+    margin-top: 48px;
+}
+h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+.sayyid{
+    font-weight: 500;
+    font-size: 13px;
+}
+.lihattkj{
+    background-color: #0c084c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 58%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.lihattkj i{
+    color: white;
+}
+.portotkj2{
+    display: flex;
+    gap: 72px;
+    margin-top: 60px;  
+}
+.cisco, .mikrotik, .php, .ubuntu{
+    width: 20%;    
+}
+.modultkj{
+    background-color:#F1A204;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 91%;
+    margin-top: auto;
+    cursor: pointer;
+    
+}
+.modulrpl{
+    background-color:#F1A204;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 91%;
+    margin-top: auto;
+    cursor: pointer;
+    
+}
+.modulrpl i{
+    color: white;
+}
+.modultkj i{
+    color: white;
+}
+.portofoliodkv{
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.portofoliodkv ul li{
+    margin: 5px 0px 0px -30px;
+}
+.lihatdkv{
+    background-color: #0c084c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 58%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.lihatdkv i{
+    color: white;
+}
+.portofoliorpl{
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.gambarptrpl{
+    margin-top: 100px;
+    width: 100%;
+
+}
+.gambarptrpl2{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+.heathwell, .clevo, .smartfamily, .dotravel{
+    width: 25%;
+    margin-top: 6%;
+}
+.psertifikasi{
+    text-align: center;
+    color: #0c084c;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+.sertifikasi{
+    display: flex;
+    gap: 10px;
+    
+}
+.sertifikasi2{
+    align-items: center;
+}
+.ps1{
+    color: #0c084c;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px;
+}
+.ps2{
+    color: #0c084c;
+   font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px;
+}
+.list-sertifikasi{
+    margin-left: -15px;
+}
+.list-sertifikasi li{
+    font-size: 13px;
+    margin: 4px 0px 4px 0px;
+}
+
+
 @media screen and (max-width: 430px){
         .navbar{
             flex-direction: column;
@@ -368,10 +525,10 @@ ul li{
         .card{
             margin: 2% 0% 2% 0%;
         }
-        .jurusan{
+        .jurusannn{
             flex-direction: column;
             width: 90%;
-            margin: 0% 0% 0% 5%;
+            margin: 0% 0% 0% 0%;
         }
         .gallery{
             flex-direction: column;
@@ -381,9 +538,84 @@ ul li{
         .fotoPartner{
             flex-direction: column;
             gap: 16px;
+            margin-top: 10%;
 
         }
         .partner-gambar{
             width: 40%;
         }
+        .jurusan{
+            flex-direction: column;
+        }
+        .portofoliotkj{
+            flex-direction: column;
+        }
+        .jdlpttkj p{
+            text-align: center;
+        }
+        .lihattkj{
+            margin-left: 20%;
+        }
+        .yttkj iframe{
+            width: 100%;
+            height: auto;
+            margin-top: -10%;
+        }
+        .portotkj2{
+            flex-direction: column;
+            align-items: center;
+        }
+        .cisco, .mikrotik, .php, .ubuntu{
+            width: 100%;    
+        }
+        .modultkj{
+            width: 40%;
+            margin-left: 27%;
+        }
+        .portofoliodkv{
+            flex-direction: column;
+        }
+        .ytdkv iframe{
+            width: 100%;
+            height: auto;
+            margin-top: -10%;
+        }
+        .jdlptdkv{
+            margin-top: -37%;
+        }
+        .jdlptdkv h1, p{
+            text-align: center;
+        }
+        .lihatdkv{
+            margin-left: 20%;
+        }
+        .portofoliorpl{
+            flex-direction: column;
+        }
+        .gambarptrpl{
+            margin-top: -16%;
+        }
+        .gambarptrpl2{
+            flex-direction: column;
+            align-items: center;
+        }
+        .heathwell, .clevo, .smartfamily, .dotravel{
+            width: 90%;
+            margin-top: 6%;
+        }
+         .heathwell p, .clevo p, .smartfamily p, .dotravel p{
+            text-align: left;
+        }
+        .modulrpl{
+            width: 50%;
+            margin-left: 24%;
+        }
+        .sertifikasi{
+            flex-direction: column;
+            align-items: center;
+        }
+        .sertifikasi2 img{
+            width: 87%;
+        }
+
 }
