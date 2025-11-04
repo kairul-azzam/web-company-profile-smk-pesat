@@ -132,12 +132,16 @@ a.contactMe:hover{
 .judul{
     text-align: center;
 }
+.judul p{
+    text-align: center;
+}
 .judul-Mengapa{
     font-size: 40px;
     margin: 5% 0% 0% ;
 }
 .judulAlasan{
     font-size: 40px;
+    font-weight: 400;
 }
 .kartu{
     display: flex;
@@ -474,6 +478,48 @@ h2{
     font-size: 13px;
     margin: 4px 0px 4px 0px;
 }
+.jdldftr h1, p{
+    text-align: center;
+}
+.tekslokasi{
+    color: #0c084c;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: -14px;
+    text-align: center;
+}
+.daftarskrg{
+    display: flex;
+}
+.bergabung{
+    background-color: #F1A204;
+    color: white;
+    padding: 75px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 60px;
+}
+.bergabung h3, p{
+    color: white;
+    text-align: left;
+}
+.jdldftr p{
+    text-align: center;
+}
+.gambardftr{
+    width: 100%;
+    margin-top: 55px;
+}
+.hubungihumas{
+    background-color: #0c084c;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+}
 
 
 @media screen and (max-width: 430px){
@@ -580,6 +626,9 @@ h2{
             height: auto;
             margin-top: -10%;
         }
+        .ytdkv p{
+            text-align: left;
+        }
         .jdlptdkv{
             margin-top: -37%;
         }
@@ -591,6 +640,9 @@ h2{
         }
         .portofoliorpl{
             flex-direction: column;
+        }
+        .jdlptrpl h1{
+            text-align: center;
         }
         .gambarptrpl{
             margin-top: -16%;
@@ -614,8 +666,18 @@ h2{
             flex-direction: column;
             align-items: center;
         }
+        .sertif{
+            margin-top: 150px;
+        }
         .sertifikasi2 img{
             width: 87%;
+        }
+        .daftarskrg{
+            flex-direction: column;
+            
+        }
+        .bergabung p, h3{
+            text-align: left;
         }
 
 }
